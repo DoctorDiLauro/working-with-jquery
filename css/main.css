@@ -1,0 +1,31 @@
+html {
+  box-sizing: border-box;
+  @-moz-viewport { width: device-width; scale: 1; }
+  @-ms-viewport { width: device-width; scale: 1; }
+  @-o-viewport { width: device-width; scale: 1; }
+  @-webkit-viewport { width: device-width; scale: 1; }
+  @viewport { width: device-width; scale: 1; }
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+.dino-list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.dino-list li {
+  margin-bottom: 1.5rem;
+}
+
+.dino-list figure {
+  margin: 0;
+}
+
+.dino-list img {
+  display: block;
+  width: 200px;
+}
